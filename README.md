@@ -19,13 +19,13 @@ This type of hook is typically used if you need to know if some function got cal
 ###Parameters
 
 * **object**
-** The object to hook a method from
+	* The object to hook a method from
 
 * **method**
-** If object was specified, the name of the method, or the name of the function to hook.
+	* If object was specified, the name of the method, or the name of the function to hook.
 
 * **handler**
-** The handler for the hook, a funcref or a method name. (Defaults to the name of the hooked function)
+	* The handler for the hook, a funcref or a method name. (Defaults to the name of the hooked function)
 
 ###Usage
 
@@ -49,10 +49,10 @@ Check if the specific function, method or script is already hooked.
 ###Parameters
 
 * **obj**
-** The object or frame to unhook from
+	* The object or frame to unhook from
 
 * **method**
-** The name of the method, function or script to unhook from.
+	* The name of the method, function or script to unhook from.
 
 
 ##GeminiHook:RawHook([object], method, [handler])
@@ -64,13 +64,13 @@ This type of hook can be used for all purposes, and is usually the most common c
 ###Parameters
 
 * **object**
-** The object to hook a method from
+	* The object to hook a method from
 
 * **method**
-** If object was specified, the name of the method, or the name of the function to hook.
+	* If object was specified, the name of the method, or the name of the function to hook.
 
 **handler**
-** The handler for the hook, a funcref or a method name. (Defaults to the name of the hooked function)
+	* The handler for the hook, a funcref or a method name. (Defaults to the name of the hooked function)
 
 ###Usage
 
@@ -100,13 +100,13 @@ a table containing the return values of the original function and either nil or 
 ###Parameters
 
 * **object**
-** The object to hook a method from
+	* The object to hook a method from
 
 * **method**
-** If object was specified, the name of the method, or the name of the function to hook.
+	* If object was specified, the name of the method, or the name of the function to hook.
 
 * **handler**
-** The handler for the hook, a funcref or a method name. (Defaults to the name of the hooked function)
+	* The handler for the hook, a funcref or a method name. (Defaults to the name of the hooked function)
 
 
 ##GeminiHook:Unhook([obj], method)
@@ -115,10 +115,10 @@ Unhook from the specified function, method or script.
 Parameters
 
 * **obj**
-** The object or frame to unhook from
+	* The object or frame to unhook from
 
 * **method**
-** The name of the method, function or script to unhook from.
+	* The name of the method, function or script to unhook from.
 
 
 ##GeminiHook:UnhookAll()
